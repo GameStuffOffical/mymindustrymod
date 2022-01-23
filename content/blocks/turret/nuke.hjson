@@ -9,7 +9,7 @@ ammoTypes: {
     damage: 50
     reload: 20
     lifetime: 500
-    speed: 3
+    speed: 1
     homingPower: 10
     homingRange: 1000
     ammoPerShot: 1
@@ -18,9 +18,9 @@ ammoTypes: {
       type: MissileBulletType
       damage: 25
       lifetime: 200
-      speed: 5
-      homingPower: 5
-      homingRange: 100
+      speed: 10
+      homingPower: 1
+      homingRange: 10000000
       pierce: true
       }
   }
