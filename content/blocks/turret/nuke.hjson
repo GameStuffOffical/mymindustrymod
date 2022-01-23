@@ -1,0 +1,19 @@
+name: nuke
+type: ItemTurret
+size: 2
+range: 800
+ammo: {
+  surge-alloy: {
+    type: MissileBulletType
+    damage: 50
+    reload: 20
+    lifetime: 500
+    speed: 3
+    homingPower: 10
+    homingRange: 1000
+  }
+}
+requirements: [
+  copper/3
+  lead/1
+]
