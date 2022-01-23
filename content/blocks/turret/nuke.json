@@ -1,9 +1,9 @@
-"name": nuke
-"type": ItemTurret
+"name": "nuke"
+"type": "ItemTurret"
 "size": 2
 "ammo": {
   "surge-alloy":{
-  "type": MissileBulletType,
+  "type": "MissileBulletType",
   "range": 800,
   "damage": 50,
   "reload": 20,
