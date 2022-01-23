@@ -31,7 +31,6 @@ ammoTypes: {
        homingRange: 1000
         }
       }
-     }
   }
 }
 requirements: [
