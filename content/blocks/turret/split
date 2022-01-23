@@ -3,18 +3,17 @@ type: ItemTurret
 size: 20
 range: 3200
 maxAmmo: 50000
+reload: 100
 ammoTypes: {
   surge-alloy: {
     type: ShrapnelBulletType
-    length:400
-    damage: 4000
-    reload: 5000
-    speed: 1000000
+    length:100
+    damage: 200
     fragBullets: 3
       fragBullet: {
       type: ShrapnelBulletType
-      length: 200
-      dammage: 200
+      length: 50
+      dammage: 50
       }
   }
 }
