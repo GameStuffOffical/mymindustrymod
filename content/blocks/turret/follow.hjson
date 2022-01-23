@@ -4,7 +4,7 @@ size: 2
 range:160
 reload:500
 type: ItemTurret
-ammo {
+ammo{
   silicon{
     type: MissileBulletType
     speed: 5
