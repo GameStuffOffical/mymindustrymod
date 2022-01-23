@@ -1,1 +1,24 @@
-nmnmn
+name: link
+type: ItemTurret
+size: 8
+range: 800
+maxAmmo: 50000
+ammoTypes: {
+  surge-alloy: {
+    type: PointBulletType
+    damage: 200
+    reload: 500
+    speed: 100
+    fragBullets: 5
+      fragBullet: {
+      type: ShrapnelBulletType
+      length: 200
+      dammage: 50
+      width: 20
+      }
+  }
+}
+requirements: [
+  copper/3
+  lead/1
+]
