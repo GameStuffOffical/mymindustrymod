@@ -1,0 +1,6 @@
+name: Error 72
+size: 1.5
+health: 4
+requierments: [
+copper: 1
+]
