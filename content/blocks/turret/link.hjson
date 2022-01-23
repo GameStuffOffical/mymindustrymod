@@ -7,8 +7,8 @@ ammoTypes: {
   surge-alloy: {
     type: PointBulletType
     damage: 4000
-    reload: 500
-    speed: 100
+    reload: 5000
+    speed: 1000000
     fragBullets: 20
       fragBullet: {
       type: ShrapnelBulletType
