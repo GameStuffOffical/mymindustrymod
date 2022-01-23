@@ -6,14 +6,15 @@ maxAmmo: 50000
 ammoTypes: {
   surge-alloy: {
     type: PointBulletType
+    width: 5
     damage: 4000
     reload: 5000
     speed: 1000000
     fragBullets: 20
       fragBullet: {
       type: ShrapnelBulletType
-      length: 2000
-      dammage: 200
+      length: 300
+      damage: 200
       }
   }
 }
