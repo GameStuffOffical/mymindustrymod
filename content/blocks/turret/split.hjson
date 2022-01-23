@@ -9,8 +9,10 @@ ammoTypes: {
     type: ShrapnelBulletType
     length:100
     damage: 200
+    lifetime: 10
     fragBullets: 3
       fragBullet: {
+      lifetime: 10
       type: ShrapnelBulletType
       length: 50
       dammage: 50
