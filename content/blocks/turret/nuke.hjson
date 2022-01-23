@@ -5,7 +5,6 @@ range: 800
 maxAmmo: 30
 ammoTypes: {
   surge-alloy: {
-    drawSize: 80
     type: MissileBulletType
     damage: 50
     reload: 100
@@ -15,6 +14,8 @@ ammoTypes: {
     homingRange: 1000
     ammoPerShot: 1
     pierce: false
+    bulletWidth: 10
+    bulletHeight: 14
     fragBullets: 3
       fragBullet: {
        type: MissileBulletType
