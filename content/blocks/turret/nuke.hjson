@@ -21,6 +21,7 @@ ammoTypes: {
       speed: 5
       homingPower: 1
       homingRange: 100
+      }
   }
 }
 requirements: [
