@@ -1,6 +1,6 @@
 name: split
 type: ItemTurret
-size: 20
+size: 4
 range: 3200
 maxAmmo: 50000
 reload: 100
