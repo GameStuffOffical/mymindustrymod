@@ -1,7 +1,10 @@
 "name": "nuke"
 "type": "ItemTurret"
 "size": 2
-"requirements": [copper/3 lead/1]
+"requirements"{
+  "item": "copper"
+  "amount": 1
+}
 "ammo": {
   "surge-alloy":{
   "type": "MissileBulletType",
