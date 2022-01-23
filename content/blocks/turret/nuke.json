@@ -3,13 +3,13 @@ type: ItemTurret
 size: 2
 ammo: {
   surge-alloy:{
-  type: MissileBulletType,
-  range: 800,
-  damage: 50,
-  reload: 20,
-  lifetime: 500,
-  speed: 3,
-  homingPower: 10,
-  homingRange: 10000000000,
+  "type": MissileBulletType,
+  "range": 800,
+  "damage": 50,
+  "reload": 20,
+  "lifetime": 500,
+  "speed": 3,
+  "homingPower": 10,
+  "homingRange": 10000000000,
   }
 }
