@@ -1,0 +1,24 @@
+name: split
+type: ItemTurret
+size: 20
+range: 3200
+maxAmmo: 50000
+ammoTypes: {
+  surge-alloy: {
+    type: ShrapnelBulletType
+    length:400
+    damage: 4000
+    reload: 5000
+    speed: 1000000
+    fragBullets: 3
+      fragBullet: {
+      type: ShrapnelBulletType
+      length: 200
+      dammage: 200
+      }
+  }
+}
+requirements: [
+  copper/3
+  lead/1
+]
