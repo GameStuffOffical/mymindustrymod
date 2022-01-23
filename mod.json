@@ -1,6 +1,6 @@
-name: My Test Mod
-displayName: My [red]Test Mod
-author: GameStuff
-description: I am making RANDOM changes to this.
-version: "1.0"
-minGameVersion: "126.2"
+"name": "My Test Mod"
+"displayName": "My Test Mod"
+"author": "GameStuff"
+"description": "I am making RANDOM changes to this."
+"version": "1.0"
+"minGameVersion": "126.2"
