@@ -1,25 +1,25 @@
 name: nuke
 type: ItemTurret
-size:2
+size: 2
 ammo: {
   surge-alloy:{
-  lifetime: 500
-  speed: 3
-  homingPower: 1
-  homingRange:10000000000
-  fragBullets: 5
-    fragbullet{
-      lifetime: 500
-      speed: 3
-      homingPower: 1
-      homingRange:10000000000
-      fragbullets: 5
-        fragbullet{
-        lifetime: 500
-        speed: 3
-        homingPower: 1
-        homingRange:10000000000
-        damage: 20
+  "lifetime": 500,
+  "speed": 3,
+  "homingPower": 1,
+  "homingRange": 10000000000,
+  "fragBullets": 5,
+    "fragbullet"{
+      "lifetime": 500,
+      "speed": 3,
+      "homingPower": 1,
+      "homingRange":10000000000,
+      "fragbullets": 5,
+        "fragbullet"{
+        "lifetime": 500,
+        "speed": 3,
+        "homingPower": 1,
+        "homingRange": 10000000000,
+        "damage": 20,
         }
     }
         }
