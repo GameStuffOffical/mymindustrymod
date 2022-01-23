@@ -36,7 +36,7 @@ ammoTypes: {
         lifetime: 100
         speed: 4
         homingPower: 0.1
-        homingRange: 1000       
+        homingRange: 1000
         fragBullets: 2
           fragBullet: {
           type: BasicBulletType 
@@ -45,6 +45,24 @@ ammoTypes: {
           speed: 5
           homingPower: 0.1
           homingRange: 1000
+                  fragBullets: 2
+          fragBullet: {
+          type: BasicBulletType 
+          damage: 50
+          lifetime: 100
+          speed: 6
+          homingPower: 0.1
+          homingRange: 1000
+                  fragBullets: 2
+          fragBullet: {
+          type: BasicBulletType 
+          damage: 50
+          lifetime: 100
+          speed: 7
+          homingPower: 0.1
+          homingRange: 1000
+     }
+     }
      }
     }
    }
