@@ -8,30 +8,48 @@ ammoTypes: {
     type: BasicBulletType
     damage: 50
     reload: 20
-    lifetime: 200
-    speed: 3
-    homingPower: 0.2
+    lifetime: 100
+    speed: 1
+    homingPower: 0.1
     homingRange: 1000
     ammoPerShot: 20
     fragBullets: 2
       fragBullet: {
       type: BasicBulletType 
       damage: 50
-      lifetime: 200
-      speed: 3
-      homingPower: 0.2
+      lifetime: 100
+      speed: 2
+      homingPower: 0.1
       homingRange: 1000
       fragBullets: 2
         fragBullet: {
         type: BasicBulletType 
         damage: 50
-       lifetime: 200
+       lifetime: 100
        speed: 3
-       homingPower: 0.2
+       homingPower: 0.1
        homingRange: 1000
-        }
-      }
+       fragBullets: 2
+        fragBullet: {
+        type: BasicBulletType 
+        damage: 50
+        lifetime: 100
+        speed: 4
+        homingPower: 0.1
+        homingRange: 1000       
+        fragBullets: 2
+          fragBullet: {
+          type: BasicBulletType 
+          damage: 50
+          lifetime: 100
+          speed: 5
+          homingPower: 0.1
+          homingRange: 1000
+     }
+    }
+   }
   }
+ }
 }
 requirements: [
   copper/3
