@@ -5,6 +5,7 @@ range: 800
 maxAmmo: 30
 ammoTypes: {
   surge-alloy: {
+    drawSize: 80
     type: MissileBulletType
     damage: 50
     reload: 100
