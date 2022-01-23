@@ -1,0 +1,40 @@
+name: multiply
+type: ItemTurret
+size: 5
+range: 1000
+maxAmmo: 50000
+ammoTypes: {
+  spore: {
+    type: BasicBulletType
+    damage: 50
+    reload: 20
+    lifetime: 200
+    speed: 3
+    homingPower: 0.2
+    homingRange: 1000
+    ammoPerShot: 20
+    fragBullets: 2
+      fragBullet: {
+      type: BasicBulletType 
+      damage: 50
+      lifetime: 200
+      speed: 3
+      homingPower: 0.2
+      homingRange: 1000
+      fragBullets: 2
+        fragBullet: {
+        type: BasicBulletType 
+        damage: 50
+       lifetime: 200
+       speed: 3
+       homingPower: 0.2
+       homingRange: 1000
+        }
+      }
+     }
+  }
+}
+requirements: [
+  copper/3
+  lead/1
+]
