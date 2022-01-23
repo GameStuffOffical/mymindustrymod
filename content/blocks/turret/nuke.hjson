@@ -3,7 +3,7 @@ type: ItemTurret
 size: 2
 range: 800
 maxAmmo: 50000
-ammo: {
+ammoTypes: {
   surge-alloy: {
     type: MissileBulletType
     damage: 50
