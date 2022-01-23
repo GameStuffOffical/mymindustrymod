@@ -9,7 +9,7 @@ ammoTypes: {
     damage: 50
     reload: 20
     lifetime: 100
-    speed: 1
+    speed: 0.25
     homingPower: 0.1
     homingRange: 1000
     ammoPerShot: 20
@@ -18,7 +18,7 @@ ammoTypes: {
       type: BasicBulletType 
       damage: 50
       lifetime: 100
-      speed: 2
+      speed: 0.5
       homingPower: 0.1
       homingRange: 1000
       fragBullets: 2
@@ -26,7 +26,7 @@ ammoTypes: {
         type: BasicBulletType 
         damage: 50
        lifetime: 100
-       speed: 3
+       speed: 1
        homingPower: 0.1
        homingRange: 1000
        fragBullets: 2
@@ -34,7 +34,7 @@ ammoTypes: {
         type: BasicBulletType 
         damage: 50
         lifetime: 100
-        speed: 4
+        speed: 2
         homingPower: 0.1
         homingRange: 1000
         fragBullets: 2
@@ -42,7 +42,7 @@ ammoTypes: {
           type: BasicBulletType 
           damage: 50
           lifetime: 100
-          speed: 5
+          speed: 4
           homingPower: 0.1
           homingRange: 1000
                   fragBullets: 2
@@ -50,7 +50,7 @@ ammoTypes: {
           type: BasicBulletType 
           damage: 50
           lifetime: 100
-          speed: 6
+          speed: 8
           homingPower: 0.1
           homingRange: 1000
                   fragBullets: 2
@@ -58,9 +58,18 @@ ammoTypes: {
           type: BasicBulletType 
           damage: 50
           lifetime: 100
-          speed: 7
+          speed: 16
           homingPower: 0.1
           homingRange: 1000
+                  fragBullets: 2
+          fragBullet: {
+          type: BasicBulletType 
+          damage: 50
+          lifetime: 100
+          speed: 0.1
+          homingPower: 0.1
+          homingRange: 1000
+     }
      }
      }
      }
