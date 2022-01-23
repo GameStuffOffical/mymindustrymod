@@ -10,9 +10,10 @@ ammoTypes: {
     reload: 100
     lifetime: 500
     speed: 5
-    homingPower: 0.1
+    homingPower: 0.05
     homingRange: 1000
     ammoPerShot: 1
+    pierce: true
   }
 }
 requirements: [
