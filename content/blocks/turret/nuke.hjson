@@ -26,6 +26,7 @@ ammoTypes: {
       homingRange: 1000
       ammoPerShot: 1
       pierce: true
+      keepVelocity: true
     }
   }
 }
