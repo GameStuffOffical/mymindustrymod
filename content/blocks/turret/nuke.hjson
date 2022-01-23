@@ -20,9 +20,17 @@ ammoTypes: {
       reload: 20
       lifetime: 500
       speed: 3
-      homingPower: 10
-      homingRange: 1000
-      ammoPerShot: 1
+      homingPower: 1
+      homingRange: 100
+        fragBullets: 3
+        fragBullet:{
+        type: MissileBulletType
+        damage: 50
+        reload: 20
+        lifetime: 500
+        speed: 3
+        homingPower: 0.1
+        homingRange: 10
       }
   }
 }
