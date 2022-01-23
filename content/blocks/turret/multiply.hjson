@@ -1,6 +1,6 @@
 name: multiply
 type: ItemTurret
-size: 5
+size: 4
 range: 1000
 maxAmmo: 50000
 ammoTypes: {
