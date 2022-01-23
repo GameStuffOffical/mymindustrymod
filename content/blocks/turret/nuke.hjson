@@ -9,11 +9,23 @@ ammoTypes: {
     damage: 50
     reload: 100
     lifetime: 500
-    speed: 5
+    speed: 3
     homingPower: 0.05
     homingRange: 1000
     ammoPerShot: 1
-    pierce: true
+    pierce: false
+    fragBullets: 3
+      fragBullet: {
+       type: MissileBulletType
+      damage: 50
+      reload: 100
+      lifetime: 500
+      speed: 5
+      homingPower: 0.05
+      homingRange: 1000
+      ammoPerShot: 1
+      pierce: true
+    }
   }
 }
 requirements: [
