@@ -2,7 +2,6 @@ name: nuke
 type: ItemTurret
 size: 2
 range: 800
-ammoPerShot: 1
 ammo: {
   surge-alloy: {
     type: MissileBulletType
@@ -12,6 +11,7 @@ ammo: {
     speed: 3
     homingPower: 10
     homingRange: 1000
+    ammoPerShot: 1
   }
 }
 requirements: [
