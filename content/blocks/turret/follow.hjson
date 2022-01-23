@@ -1,0 +1,17 @@
+name: Follow
+health: 500
+size: 2
+range:160
+reload:500
+type: ItemTurret
+ammo {
+  silicon{
+    type: MissileBulletType
+    speed: 5
+    peirce: true
+    damage: 20
+    lifetime:200
+    homingPower:0.1
+    homingRange=160
+  }
+}
