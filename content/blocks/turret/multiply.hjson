@@ -4,7 +4,7 @@ size: 4
 range: 1000
 maxAmmo: 50000
 ammoTypes: {
-  spore: {
+  sporePod: {
     type: BasicBulletType
     damage: 50
     reload: 20
