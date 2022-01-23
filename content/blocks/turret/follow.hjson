@@ -12,6 +12,6 @@ ammoType{
     damage: 20
     lifetime:200
     homingPower:0.1
-    homingRange=160
+    homingRange: 160
   }
 }
