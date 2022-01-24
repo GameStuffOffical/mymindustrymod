@@ -3,9 +3,9 @@ category: turret
 type: TractorBeamTurret
 damage: 0.3
 hasPower: true
-force: -12
+force: -1200
 scaledForce: 6
-range: 240
+range: 24000000
 rotateSpeed: 10
 
 consumes: {
