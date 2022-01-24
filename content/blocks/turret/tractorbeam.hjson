@@ -1,6 +1,6 @@
 name:tractor beam
 category: turret
-type: TractoBeamTurret
+type: TractorBeamTurret
 damage: 0.3
 hasPower: true
 force: -12
