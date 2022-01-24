@@ -9,7 +9,9 @@ range: 240
 rotateSpeed: 10
 
 consumes: {
-	power/3
+	ConsumePower: {
+		power/3
+	}
 }
 
 requirements: [
