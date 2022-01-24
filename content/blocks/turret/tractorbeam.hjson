@@ -4,7 +4,7 @@ type: TractorBeamTurret
 damage: 0.3
 hasPower: true
 force: -1200
-scaledForce: 6
+scaledForce: -6
 range: 24000000
 rotateSpeed: 10
 
