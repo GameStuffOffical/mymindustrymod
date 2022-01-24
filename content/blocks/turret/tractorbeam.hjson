@@ -8,10 +8,8 @@ scaledForce: 6
 range: 240
 rotateSpeed: 10
 
-consumes: {
-	ConsumePower: {
-		power/3
-	}
+power: {
+	power/3
 }
 
 requirements: [
