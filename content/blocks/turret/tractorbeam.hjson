@@ -8,7 +8,7 @@ scaledForce: 6
 range: 240
 rotateSpeed: 10
 
-consumes {
+consumes: {
 	power/3
 }
 
