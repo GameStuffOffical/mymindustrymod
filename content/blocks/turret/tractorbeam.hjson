@@ -1,0 +1,21 @@
+name:tractor beam
+category: turret
+type: TractoBeamTurret
+damage: 0.3
+hasPower: true
+force: -12
+scaledForce: 6
+range: 240
+rotateSpeed: 10
+
+consumes {
+	power/3
+}
+
+requirements: [
+  titanium/200
+  copper/300
+  lead/100
+  graphite/60
+  surge-alloy/30
+]
