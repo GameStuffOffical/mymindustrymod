@@ -5,8 +5,7 @@ controller: BuilderAI
 hitSize: 3
 speed: 5
 rotateSpeed: 5
+circleTarget: true
 accel:0.2
-buildSpeed: 0.1
-range:100000
+buildSpeed: 0.01
 drag:0.12
-buildRange:10
