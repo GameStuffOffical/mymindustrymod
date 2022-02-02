@@ -9,3 +9,4 @@ circleTarget: true
 accel:0.2
 buildSpeed: 0.01
 drag:0.12
+range: 1000
