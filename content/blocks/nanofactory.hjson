@@ -5,7 +5,7 @@ size: 1
 
 alwaysUnlocked: true
 
-requierments: [
+requirements: [
    lead/10
    copper/5
    silicon/15
@@ -15,5 +15,8 @@ Plan: [
    {
       unit:nanobot
       time:10
+         requirements: [
+            silicon/3
+         ]
    }
 ]
