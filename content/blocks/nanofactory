@@ -10,10 +10,9 @@ requierments: [
    silicon/15
 ]
 
-Plan: {
-  UnitPlan: {
-    nanobot: [
-      silicon/3
-    ]
-  }
-}
+Plan: [
+   {
+      unit:nanobot
+      time:10
+   }
+]
