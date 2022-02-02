@@ -2,10 +2,10 @@ name:Nano Bot
 type: flying
 flying: true
 controller: BuilderAI
-hitSize: 1
+hitSize: 3
 speed: 5
 rotateSpeed: 5
-accel:0.5
+accel:0.2
 buildSpeed: 0.1
-range:10
+range:100
 drag:0.12
