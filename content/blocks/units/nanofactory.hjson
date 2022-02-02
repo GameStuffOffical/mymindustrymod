@@ -15,9 +15,9 @@ plans: [
    {
       unit:nanobot
       time:10
-         requirements: [
-            silicon/3
-         ]
+          requirements: [
+          silicon/25
+    ]
    }
 ]
 category: units
