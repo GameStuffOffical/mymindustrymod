@@ -1,0 +1,19 @@
+name:Nano Factory
+type: unit factory
+size: 1
+
+
+
+requierments: [
+   lead/10
+   copper/5
+   silicon/15
+]
+
+Plan: {
+  UnitPlan: {
+    nanobot: [
+      silicon/3
+    ]
+  }
+}
