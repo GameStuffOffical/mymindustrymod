@@ -1,4 +1,5 @@
 name:Nano Bot
+health: 1
 type: flying
 flying: true
 controller: BuilderAI
