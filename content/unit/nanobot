@@ -1,0 +1,11 @@
+name:Nano Bot
+type: flying
+flying: true
+controller: minerAI
+hitSize: 1
+speed: 5
+rotateSpeed: 5
+accel:0.5
+buildSpeed: 1
+range:10
+drag:0.12
