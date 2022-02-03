@@ -11,13 +11,13 @@ ammoTypes: {
     type: MissileBulletType
     homingPower:0.5
     homingRange:200
-    damage:200
+    damage:10000
     lifetime:240
     speed:3
     pierceBuilding: true
     width: 10
     height: 20
-    fragBullets: 2
+    fragBullets: 0
       fragBullet: {
     type: MissileBulletType
     homingPower:0.5
