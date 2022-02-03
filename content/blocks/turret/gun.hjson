@@ -11,7 +11,7 @@ ammoTypes: {
     type: MissileBulletType
     homingPower:0.1
     homingRange:200
-    damage:100
+    damage:200
     lifetime:120
     speed:3
     pierce: true
