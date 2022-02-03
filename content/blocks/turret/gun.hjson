@@ -1,0 +1,25 @@
+name:gun
+size:2
+type:ItemTurret
+shootCone:30
+range:200
+reloadTime: 240
+category: turret
+
+ammoTypes: {
+  missile: {
+    type: MissileBulletType
+    homingPower:0.05
+    homingRange:200
+    damage:50
+    lifetime:480
+    speed:3
+    pierce: true
+  }  
+ }
+
+requirements: [
+  titanium/80
+  copper/50
+  lead/40
+]
