@@ -12,9 +12,20 @@ ammoTypes: {
     homingPower:0.1
     homingRange:200
     damage:50
-    lifetime:480
+    lifetime:120
     speed:3
     pierce: true
+    fragBullets: 2
+    pierce = true
+      fragBullet: {
+    type: MissileBulletType
+    homingPower:0.1
+    homingRange:200
+    damage:50
+    lifetime:120
+    speed:3
+    pierce: true
+   }
   }  
  }
 
