@@ -13,10 +13,11 @@ ammoTypes: {
     homingRange:200
     damage:10000
     lifetime:240
-    speed:3
+    speed:10
     pierceBuilding: true
     width: 10
     height: 20
+    bulletSprite: router
     fragBullets: 0
       fragBullet: {
     type: MissileBulletType
