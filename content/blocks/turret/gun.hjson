@@ -11,17 +11,16 @@ ammoTypes: {
     type: MissileBulletType
     homingPower:0.1
     homingRange:200
-    damage:50
+    damage:100
     lifetime:120
     speed:3
     pierce: true
     fragBullets: 2
-    pierce = true
       fragBullet: {
     type: MissileBulletType
     homingPower:0.1
     homingRange:200
-    damage:50
+    damage:100
     lifetime:120
     speed:3
     pierce: true
