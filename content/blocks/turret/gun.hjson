@@ -3,7 +3,7 @@ size:2
 type:ItemTurret
 shootCone:30
 range:200
-reloadTime: 240
+reloadTime: 120
 category: turret
 
 ammoTypes: {
