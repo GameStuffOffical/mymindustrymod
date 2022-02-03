@@ -2,29 +2,33 @@ name:gun
 size:2
 type:ItemTurret
 shootCone:30
-range:200
+range:800
 reloadTime: 120
 category: turret
 
 ammoTypes: {
   copper: {
     type: MissileBulletType
-    homingPower:0.1
+    homingPower:0.5
     homingRange:200
     damage:200
-    lifetime:120
+    lifetime:240
     speed:3
     pierceBuilding: true
+    width: 10
+    height: 20
     fragBullets: 2
       fragBullet: {
     type: MissileBulletType
-    homingPower:0.1
+    homingPower:0.5
     homingRange:200
     damage:100
-    lifetime:120
-    speed:3
+    lifetime:240
+    speed:6
     pierce: true
     pierceBuilding: true
+    width: 5
+    height: 10
    }
   }  
  }
