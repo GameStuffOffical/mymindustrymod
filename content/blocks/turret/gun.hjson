@@ -8,7 +8,7 @@ category: turret
 
 ammoTypes: {
   copper: {
-    type: MissileBulletType
+    type: BasicBulletType
     homingPower:0.05
     homingRange:200
     damage:50
