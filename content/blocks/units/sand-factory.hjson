@@ -3,7 +3,7 @@ type: UnitFactory
 size: 1
 
 
-alwaysUnlocked: true
+alwaysUnlocked: false
 
 requirements: [
    lead/10
@@ -13,20 +13,20 @@ requirements: [
 
 plans: [
    {
-      unit:nanobot
-      time:10
+      unit: nanobot
+      time: 10
           requirements: [
           silicon/5
     ]
    }
-      {
-      unit:fire-elemental
-      time:3600
-          requirements: [
-          silicon/20
-          blast-compund/10
-          pyratite/20
-    ]
-   }
+   //    {
+   //    unit: fire-elemental
+   //    time:3600
+   //        requirements: [
+   //        silicon/20
+   //        blast-compund/10
+   //        pyratite/20
+   //  ]
+   // }
 ]
 category: units
