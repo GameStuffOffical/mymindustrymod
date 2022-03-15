@@ -1,4 +1,4 @@
-name:Nano Bot
+name: Nano Bot
 health: 1
 type: flying
 flying: true
@@ -6,10 +6,10 @@ controller: BuilderAI
 hitSize: 5
 speed: 5
 rotateSpeed: 5
-accel:0.1
-engineSize:0
+accel: 0.1
+engineSize: 0
 buildSpeed: 0.01
-drag:0.12
+drag: 0.12
 range: 1000
 weapons: [
   {
@@ -46,4 +46,3 @@ weapons: [
         ff0000ff
     ]
   }
-]
