@@ -14,36 +14,10 @@ range: 1000
 weapons: [
   {
     bulletType: BasicBulletType
-    sprite: fire-shape
-    name: Fireball
     mirror: false
-    top: false
-    reload: 160
-    recoil: 12
-    shots: 1
-    shootSound: explosion
-    shake: 3
-    hitEffect: explosion
-    shootEffect: exposion
-    splashDamange: 15
-    reflectable: false
-    absorbable: false
-    makeFire: true
-    trailLength: 1
-    splashDamageRadius: 40
-    homingPower: 0.1
-    damage: 20
     bullet: {
-      speed: 0.5
-      length: 640
-      lifetime: 80
-      height: 8
-      width: 8
-      damage: 0.001
-      colors: [
-        ffffffff
-        ffff00ff
-        ff0000ff
-    ]
-  }}
+        speed: 3
+        width: 80
+        height: 80
+    }
 ]
