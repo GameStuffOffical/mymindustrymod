@@ -1,4 +1,4 @@
-name:Nano Factory
+name:Sand Factory
 type: UnitFactory
 size: 1
 
@@ -17,6 +17,15 @@ plans: [
       time:10
           requirements: [
           silicon/5
+    ]
+   }
+      {
+      unit:fire-elemental
+      time:3600
+          requirements: [
+          silicon/20
+          blast-compund/10
+          pyratite/20
     ]
    }
 ]
